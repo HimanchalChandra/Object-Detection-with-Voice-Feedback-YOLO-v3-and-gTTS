@@ -3,7 +3,7 @@
 <br>
 <br>
 
-Object Detection is a field of Computer Vi s ion that detects instances of semantic objects in images/videos (by creating bounding boxes around them in our case).
+Object Detection is a field of Computer Vision that detects instances of semantic objects in images/videos (by creating bounding boxes around them in our case).
 We can then convert the annotated text into voice responses and give the basic positions of the objects in the person/camera’s view.
 
 <br>
@@ -35,7 +35,7 @@ API using gTTS package by giving text description of the object.
 
 ## Voice Feedback
 
-We can use bx & by relative to W & H to determine the position of the objects detected and send it as a text string to gTTS
+We can use bx & by relative to W & H to determine the position of the objects detected and send it as a text string to gTTS.
 
 ### **Note**:
 You need to download the [yolo pretrained weights](https://pjreddie.com/media/files/yolov3.weights) to get started with the code.
